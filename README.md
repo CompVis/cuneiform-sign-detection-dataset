@@ -1,5 +1,11 @@
 # cuneiform-sign-detection-dataset
-The dataset corresponding to the article submission "Deep learning of cuneiform sign detection with weak supervision using transliteration alignment" comprises image references, transliterations and sign annotations of clay tablets from the [Neo-Assyrian epoch](https://en.wikipedia.org/wiki/Neo-Assyrian_Empire).
+
+This repository contains the dataset for cuneiform sign detection introduced in the article:
+>Dencker, T., Klinkisch, P., Maul, S. M., and Ommer, B. (2020): Deep Learning of Cuneiform Sign Detection with Weak Supervision using Transliteration Alignment, PLOS ONE, 15:12, pp. 1–21
+>[https://doi.org/10.1371/journal.pone.0243039](https://doi.org/10.1371/journal.pone.0243039)
+
+
+The dataset comprises image references, transliterations and sign annotations of clay tablets from the [Neo-Assyrian epoch](https://en.wikipedia.org/wiki/Neo-Assyrian_Empire).
 
 <!--- <img src="/images/test/tablet_segment_annotated.png" alt="Annotated tablet segment" width="300"/> -->
 <img src="https://cunei.iwr.uni-heidelberg.de/cuneiformbrowser/functions/tablet_segment_annotated.png" alt="Annotated tablet segment" width="300"/>
@@ -27,7 +33,7 @@ To compile this dataset we first segmented the composite images and then matched
 Both steps of the pre-processing were performed algorithmically and thus contain errors which need to be taken into account when working with the provided dataset.
 In particular the matching step (segment assignment) relies on several heuristics, since composite images of clay tablets differ in their number of segments and in their layout.
 
-In order to obtain sign annotations we employed Assyriology graduate and PhD students that used a custom annotation tool to draw bounding boxes and label individual cuneiform signs. We follow the popular sign code classification (`mzl_label`) established by Borger's [Mesopotamisches Zeichenlexikon (MZL)](#mzl) which hopefully makes the dataset more accessible to other researchers. 
+In order to obtain sign annotations we employed Assyriology graduate and PhD students that used a custom annotation tool to draw bounding boxes and label individual cuneiform signs. We follow the popular sign code classification (`mzl_label`) established by Borger's [Mesopotamisches Zeichenlexikon (MZL)](#mzl) which hopefully makes the dataset more accessible to other researchers.
 
 
 ## Dataset Organization
