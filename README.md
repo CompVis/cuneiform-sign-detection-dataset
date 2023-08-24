@@ -7,9 +7,6 @@ This repository contains the dataset for cuneiform sign detection introduced in 
 
 The dataset comprises image references, transliterations and sign annotations of clay tablets from the [Neo-Assyrian epoch](https://en.wikipedia.org/wiki/Neo-Assyrian_Empire).
 
-<!--- <img src="/images/test/tablet_segment_annotated.png" alt="Annotated tablet segment" width="300"/> -->
-<img src="https://cunei.iwr.uni-heidelberg.de/cuneiformbrowser/functions/tablet_segment_annotated.png" alt="Annotated tablet segment" width="300"/>
-
 
 ## Dataset Overview
 
@@ -55,7 +52,7 @@ The annotation csv files are only provided for a smaller subsets of collections:
 
 For image data we rely on the [cdli website](https://cdli.ucla.edu/) where the tablet composite image files are made available. The individual image files are accessed by means of their cdli no. which we provide in the csv files. For a code example how to load a tablet image and visualize the data provided in this dataset, please consult our [short introduction jupyter notebook](Cuneiform_Sign_Detection_Dataset_Introduction.ipynb).
 
-While the vast majority of tablet images from our dataset is available on the cdli website, seven tablet images from the collection of the [Vorderasiatisches Museum Berlin](https://www.smb.museum/en/museums-institutions/vorderasiatisches-museum/home.html) are currently not available. Kindly the museum granted us the permission to provide them for research purposes as a downloadable ZIP archive [here](https://cunei.iwr.uni-heidelberg.de/cuneiformbrowser/model_weights/VAT_train_images.zip).
+While the vast majority of tablet images from our dataset is available on the cdli website, seven tablet images from the collection of the [Vorderasiatisches Museum Berlin](https://www.smb.museum/en/museums-institutions/vorderasiatisches-museum/home.html) are currently not available. Kindly the museum granted us the permission to provide them for research purposes as a downloadable ZIP archive [here](https://ommer-lab.com/files/cunei/VAT_train_images.zip).
 
 ## Details on the Dataset Composition
 
